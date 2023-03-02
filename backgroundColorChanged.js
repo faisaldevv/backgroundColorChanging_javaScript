@@ -13,7 +13,7 @@ const changeBackground = () => {
 }
 btn.addEventListener('click', triggerBackground)
 function triggerBackground() {
-    document.body.style.backgroundColor = combineColor
+    document.body.style.backgroundColor = changeBackground()
 
 }
 
